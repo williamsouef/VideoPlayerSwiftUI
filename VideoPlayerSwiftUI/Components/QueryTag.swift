@@ -9,16 +9,20 @@ import SwiftUI
 
 struct QueryTag: View {
     
-    var query : String
+    var query : Query
     var isSelected : Bool
     
     var body: some View {
-        Text(query)
+        Text(query.rawValue)
+            .foregroundColor(isSelected ? .black : .gray)
+            .padding(10)
+            .background(.thinMaterial)
+            .cornerRadius(30)
     }
 }
 
 struct QueryTag_Previews: PreviewProvider {
     static var previews: some View {
-        QueryTag(query: "Mountains", isSelected: true)
+        QueryTag(query: Query.ocean, isSelected: true)
     }
 }
