@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B328920329657C9B003D9F85 /* vpocean.png in Resources */ = {isa = PBXBuildFile; fileRef = B328920229657C9B003D9F85 /* vpocean.png */; };
+		B328920529657CA2003D9F85 /* vpvideo.png in Resources */ = {isa = PBXBuildFile; fileRef = B328920429657CA2003D9F85 /* vpvideo.png */; };
+		B328920729657CA6003D9F85 /* vppeople.png in Resources */ = {isa = PBXBuildFile; fileRef = B328920629657CA6003D9F85 /* vppeople.png */; };
 		B3BEABFE295C8F1700004F1E /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3BEABFD295C8F1700004F1E /* VideoView.swift */; };
 		B3CD8F9D295C529000671152 /* VideoPlayerSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD8F9C295C529000671152 /* VideoPlayerSwiftUIApp.swift */; };
 		B3CD8F9F295C529000671152 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3CD8F9E295C529000671152 /* ContentView.swift */; };
@@ -20,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B328920129657AF9003D9F85 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		B328920229657C9B003D9F85 /* vpocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vpocean.png; sourceTree = "<group>"; };
+		B328920429657CA2003D9F85 /* vpvideo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vpvideo.png; sourceTree = "<group>"; };
+		B328920629657CA6003D9F85 /* vppeople.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vppeople.png; sourceTree = "<group>"; };
 		B3BEABFD295C8F1700004F1E /* VideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
 		B3CD8F99295C529000671152 /* VideoPlayerSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoPlayerSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3CD8F9C295C529000671152 /* VideoPlayerSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerSwiftUIApp.swift; sourceTree = "<group>"; };
@@ -69,6 +76,10 @@
 				B3CD8FAA295C533200671152 /* Components */,
 				B3CD8FA0295C529100671152 /* Assets.xcassets */,
 				B3CD8FA2295C529100671152 /* Preview Content */,
+				B328920129657AF9003D9F85 /* README.md */,
+				B328920229657C9B003D9F85 /* vpocean.png */,
+				B328920429657CA2003D9F85 /* vpvideo.png */,
+				B328920629657CA6003D9F85 /* vppeople.png */,
 			);
 			path = VideoPlayerSwiftUI;
 			sourceTree = "<group>";
@@ -160,7 +171,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3CD8FA4295C529100671152 /* Preview Assets.xcassets in Resources */,
+				B328920529657CA2003D9F85 /* vpvideo.png in Resources */,
+				B328920729657CA6003D9F85 /* vppeople.png in Resources */,
 				B3CD8FA1295C529100671152 /* Assets.xcassets in Resources */,
+				B328920329657C9B003D9F85 /* vpocean.png in Resources */,
 				B3CD8FB5295C64E800671152 /* videoData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
